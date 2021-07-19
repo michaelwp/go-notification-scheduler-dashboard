@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, {useEffect} from "react";
 import {useDispatch, useSelector} from "react-redux";
 import {fetchListNotification} from "../../store/actions/notification";
 import {Spinner, Table} from "react-bootstrap";
@@ -47,7 +47,6 @@ const ListNotification = () => {
                     : <Spinner animation="border" role="status">
                         <span className="visually-hidden">Loading...</span>
                     </Spinner>
-
             }
         </>
     )

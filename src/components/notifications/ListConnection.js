@@ -1,6 +1,5 @@
-import React, {useEffect, useState} from "react";
+import React, {useEffect} from "react";
 import {useDispatch, useSelector} from "react-redux";
-import {fetchListNotification} from "../../store/actions/notification";
 import {Spinner, Table} from "react-bootstrap";
 import {fetchListConnection} from "../../store/actions/connection";
 
